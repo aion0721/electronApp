@@ -1,5 +1,5 @@
 {
-  "name": "electronApp",
+  "name": "electronapp",
   "version": "1.0.0",
   "main": "main.js",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "redux": "^4.0.5"
   },
   "scripts": {
-    "start": "electron./dist/main.js",
+    "start": "electron ./dist/main.js",
     "build:main": "tsc",
     "build:render": "webpack"
   },
